@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h2, h3 {
+    margin: 0;
+}
+
+/* Header Styles */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #232f3e;
+    padding: 20px;
+}
+
+.header-logo {
+    height: 40px;
+}
+
+.header-search input {
+    padding: 6px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.header-search button {
+    padding: 6px 10px;
+    background-color: #febd69;
+    color: #333;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.header-nav {
+    display: flex;
+    gap: 10px;
+}
+
+.header-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Banner Styles */
+.banner img {
+    width: 100%;
+}
+
+/* Category Styles */
+.categories {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.category-card {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.category-card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Popular Products Styles */
+.popular-products {
+    padding: 20px;
+}
+
+.product-card {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
